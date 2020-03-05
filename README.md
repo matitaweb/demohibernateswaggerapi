@@ -32,8 +32,10 @@ gradlew bootRun
 
 > h2 db check
 
-`http://localhost:8080/h2`
+`http://localhost:8080/h2/`
 
+![alt text](./docs/H2Console01.png "h2 interface")
+![alt text](./docs/H2Console02.png "h2 interface")
 <br>
 
 > apidocs swagger
@@ -46,6 +48,9 @@ gradlew bootRun
 
 `http://localhost:8080/swagger-ui/index.html`
 `con exploer /api-docs/`
+oppure <br>
+`http://localhost:8080//swagger-ui-custom.html` <br>
+personalizzata su `application.properties`
 
 ![alt text](./docs/swagger-ui.png "swagger ui")
 
